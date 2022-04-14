@@ -108,8 +108,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Jikun's Notebook # your blog must have a name for it to show up in the nav bar
+blog_description: Stay Hungry, Stay Foolish!
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -156,10 +156,16 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  # blogs:
+  #   defaults:
+  #     layout: post
+  #   output: true
+  #   permalink: /blogs/:path/
   projects:
     output: true
     permalink: /projects/:path/
 
+<<<<<<< HEAD
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -169,6 +175,10 @@ latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+=======
+news_limit: 5
+blogs_limit: 5
+>>>>>>> add ODT blog
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

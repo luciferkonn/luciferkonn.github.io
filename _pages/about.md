@@ -2,18 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: Stay Hungry, Stay Foolish
+subtitle: Contact me at firstname dot lastname at mail dot mcgill dot ca
 
 profile:
   align: right
   image: jikunkang.jpg
   address: >
     <p>Room 305</p>
+    <p>McConnel Building</p>
     <p>McGill University</p>
 # 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
+blog: true
 social: true  # includes social icons at the bottom of the page
 ---
 
