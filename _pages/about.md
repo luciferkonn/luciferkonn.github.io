@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Ph.D. candidate at [McGill University](https://www.mcgill.ca/). I am fortunate to be advised by [Prof. Xue (Steve) Liu](https://www.cs.mcgill.ca/~xueliu/site/intro.html).
 
-My research interest lies in the domain of Reinforcement Learning, Meta-RL and Applied RL.
+My research interest lies in the domain of Reinforcement Learning, Meta-RL and Applied RL. Recently, I'm working on improving policy generalization and sample-efficiency.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
