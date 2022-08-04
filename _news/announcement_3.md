@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2017-01-10 
+date: 2022-08-02 15:59:00-0400
 inline: true
 ---
 
-I started my internship in Siemens China Research Institute. 
+Our latest paper about how to improve policy generalization in real-world application (5G networking) has been accepted to GlobeCOM2022!
