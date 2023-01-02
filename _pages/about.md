@@ -1,10 +1,3 @@
-<!--
- * @Author: Jikun Kang
- * @Date: 2023-01-01 17:45:14
- * @LastEditTime: 2023-01-01 17:52:55
- * @LastEditors: Jikun Kang
- * @FilePath: /luciferkonn.github.io/_pages/about.md
--->
 ---
 layout: about
 title: about
