@@ -24,7 +24,7 @@ I am a Ph.D. candidate at [McGill University](https://www.mcgill.ca/). I am fort
 
 My research interest lies in the domain of Reinforcement Learning, Meta-RL and Applied RL. Recently, I'm working on improving policy generalization and sample-efficiency.
 
-# Service:
+Service:
 
 I'm a reviewer for NeurIPS, ICML, AISTATS, INFOCOM, GLOBECOM, IJCAI, AAAI
 
