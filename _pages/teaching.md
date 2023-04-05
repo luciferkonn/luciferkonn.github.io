@@ -11,6 +11,6 @@ nav_order: 6
 
 COMP 597 - [Applications of Machine Learning in Real World Systems](https://www.mcgill.ca/study/2021-2022/courses/comp-597) : Winter 2020
 
-COMP 535 - [Computer Networks](https://www.mcgill.ca/study/2021-2022/courses/comp-535): Winter 2019
+COMP 535 - [Computer Networks](https://www.mcgill.ca/study/2021-2022/courses/comp-535): Winter 2019, Winter 2023
 
 COMP 202 - [Foundations of Programming](https://www.mcgill.ca/study/2021-2022/courses/comp-202): Winter 2018-Fall2021

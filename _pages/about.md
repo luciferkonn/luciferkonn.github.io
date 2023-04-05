@@ -25,9 +25,9 @@ I am a Ph.D. candidate at [McGill University](https://www.mcgill.ca/). I am fort
 
 My research interest lies in the domain of Reinforcement Learning, Meta-RL and Applied RL. Recently, I'm working on improving RL policy generalization and sample-efficiency.
 
-Service:
+<!-- Service:
 
-I'm a reviewer for NeurIPS, ICML, AISTATS, INFOCOM, GLOBECOM, ICC, IJCAI, AAAI
+I'm a reviewer for NeurIPS, ICML, AISTATS, INFOCOM, GLOBECOM, ICC, IJCAI, AAAI -->
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
