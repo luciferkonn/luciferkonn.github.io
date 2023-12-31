@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://luciferkonn.github.io/" />    <!-- Metadata, OpenGraph and Schema.org -->
+<!-- _layouts/distill.html -->
+<html>
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jikun  Kang | Page not found</title>
+    <title>Jikun  Kang | HyperTransformer Model Generation for Supervised and Semi-supervised Few-show Learning</title>
     <meta name="author" content="Jikun  Kang" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://luciferkonn.github.io/404.html">
+    <link rel="canonical" href="https://luciferkonn.github.io/blog/2022/HyperT/">
     
     <!-- Dark Mode -->
     
@@ -42,10 +42,80 @@
     <script src="/assets/js/dark_mode.js"></script>
     
 
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Distill js -->
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    
   </head>
 
-  <!-- Body -->
-  <body class="fixed-top-nav ">
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "HyperTransformer Model Generation for Supervised and Semi-supervised Few-show Learning",
+      "description": "",
+      "published": "April 14, 2022",
+      "authors": [
+        {
+          "author": "Andrey Zhmoginov",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "Google Research",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "author": "Mark Sandler",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "Google Research",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "author": "Max Vladymyrov",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "Google Research",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
+
+  <body class="fixed-top-nav">
 
     <!-- Header -->
     <header>
@@ -71,7 +141,7 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item ">
+              <li class="nav-item active">
                 <a class="nav-link" href="/blog/">blog</a>
               </li>
 
@@ -103,21 +173,87 @@
     </header>
 
     <!-- Content -->
-    <div class="container mt-5">
-      <!-- page.html -->
-        <div class="post">
+    <div class="post distill">
 
-          <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
-          </header>
+      <d-title>
+        <h1>HyperTransformer Model Generation for Supervised and Semi-supervised Few-show Learning</h1>
+        <p></p>
+      </d-title>
 
-          <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://luciferkonn.github.io/">here</a>.</p>
+      <d-byline></d-byline>
 
-          </article>
+      <d-article>
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            <div><a href="#motivation">Motivation</a></div>
+            <div><a href="#contribution">Contribution</a></div>
+            <div><a href="#methodology">Methodology</a></div>
+            <div><a href="#references">References</a></div>
+            
+          </nav>
+        </d-contents>
 
-        </div>
+        <p>📖 Arxiv: <a href="https://arxiv.org/abs/2201.04182" target="_blank" rel="noopener noreferrer">2201.04182</a></p>
+
+<h2 id="motivation">Motivation</h2>
+
+<ol>
+  <li>One approach of few-shot learning is <strong>metric-based</strong>
+</li>
+</ol>
+
+<blockquote>
+  <p>💡 The main idea is to use the transformer model that given a few-shot task episode generates an entire inference model by producing all model weights in a single pass.</p>
+</blockquote>
+
+<h2 id="contribution">Contribution</h2>
+
+<ol>
+  <li>
+    <p><strong>Small CNN Architectures:</strong> this method is effective than training a universal task-independent embedding.</p>
+  </li>
+  <li>
+    <p><strong>Large CNN Architectures:</strong></p>
+
+    <blockquote>
+      <p>We develop a novel replay buffer consistent with the architecture and training protocol of ODT</p>
+    </blockquote>
+  </li>
+</ol>
+
+<h2 id="methodology">Methodology</h2>
+
+<ol>
+  <li>This paper combines DT with SAC, which adopt a maximum-entropy idea to encourage the exploration in fine-tuning.</li>
+  <li>Minor changes:
+    <ol>
+      <li>Change replay buffer from saving transitions to trajectories.</li>
+      <li>Utilizing HER to improve the sample-efficiency in sparse rewards settings.</li>
+      <li>Sampling strategy.</li>
+    </ol>
+  </li>
+</ol>
+
+<!-- <aside>
+❓ what is cross conditional entropy?
+
+</aside> -->
+
+<h2 id="references">References</h2>
+
+<ol>
+  <li>Levine, Sergey. “Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review.” <em>ArXiv</em> abs/1805.00909 (2018): n. pag.</li>
+  <li>Marcin Andrychowicz, Filip Wolski, Alex Ray, Jonas Schneider, Rachel Fong, Peter Welinder, Bob McGrew, Josh Tobin, OpenAI Pieter Abbeel, and Wojciech Zaremba. Hindsight Experience Replay. In Advances in Neural Information Processing Systems, 2017.</li>
+</ol>
+
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
@@ -129,37 +265,19 @@
       </div>
     </footer>
 
-    <!-- JavaScripts -->
-    <!-- jQuery -->
+  </body>
+
+  <d-bibliography src="/assets/bibliography/2018-12-22-distill.bib">
+  </d-bibliography>
+
+  <!-- jQuery -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!-- Bootsrap & MDB scripts -->
+  <!-- Bootsrap & MDB scripts -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
 
-    <!-- Masonry & imagesLoaded -->
-  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
-    
-  <!-- Medium Zoom JS -->
-  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
-  <script src="/assets/js/common.js"></script>
+  <script src="/assets/js/distillpub/overrides.js"></script>
 
-    <!-- MathJax -->
-  <script type="text/javascript">
-    window.MathJax = {
-      tex: {
-        tags: 'ams'
-      }
-    };
-  </script>
-  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-    
-  </body>
 </html>
-
