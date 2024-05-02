@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-01-18 16:00:00-0400
+date: 2023-12-23 09:00:00-0400
 inline: true
 ---
-Happy to share our paper "Multi-agent Attention Actor-Critic Algorithm for Load Balancing in Cellular Networks" was accepted at IEEE International Conference on Communications (ICC) 2023!
+Our latest paper LaFFi: Leveraging Hybrid Natural Language Feedback for Fine-tuning Language Models has been accepted to AAAI 2024 Human-Centric Representation Learning.

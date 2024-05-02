@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2022-08-02 15:59:00-0400
+date: 2023-01-18 16:00:00-0400
 inline: true
 ---
-
-Our latest paper about how to improve policy generalization in real-world application (5G networking) has been accepted to GlobeCOM2022!
+Happy to share our paper "Multi-agent Attention Actor-Critic Algorithm for Load Balancing in Cellular Networks" was accepted at IEEE International Conference on Communications (ICC) 2023!
