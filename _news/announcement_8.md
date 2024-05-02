@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-12-23 09:00:00-0400
+date: 2024-05-01 15:59:00-0400
 inline: true
 ---
-Our latest paper LaFFi: Leveraging Hybrid Natural Language Feedback for Fine-tuning Language Models has been accepted to AAAI 2024 Human-Centric Representation Learning.
+I'm thrilled to announce our paper "Think Before You Act: Decision Transformers with Internal Memory" is accepted at ICML 2024.
