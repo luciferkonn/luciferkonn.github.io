@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-04-14 15:59:00-0400
+date: 2020-03-22 15:59:00-0400
 inline: true
 ---
 
-Our latest paper "Incentive Temperature Control for Green Colocation Data Centers via Reinforcement Learning" has been accepted to the IWQoS 2024.
+I am currently a machine learning research intern at [Samsung AI Center Montreal](https://research.samsung.com/aicenter_montreal).
