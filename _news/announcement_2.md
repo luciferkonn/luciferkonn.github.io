@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2019-04-02 15:59:00-0400
+date: 2024-05-01 
 inline: true
 ---
 
-I am now a machine learning research intern at [Learnable AI](https://www.learnable.ai/#/).
+I'm thrilled to announce our paper "Think Before You Act: Decision Transformers with Internal Memory" is accepted at ICML 2024.
