@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-08-02 15:59:00-0400
+date: 2024-04-14 
 inline: true
 ---
 
-Our latest paper about how to improve policy generalization in real-world application (5G networking) has been accepted to GlobeCOM2022!
+Our latest paper "Incentive Temperature Control for Green Colocation Data Centers via Reinforcement Learning" has been accepted to the IWQoS 2024.
