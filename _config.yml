@@ -165,7 +165,6 @@ collections:
     output: true
     permalink: /projects/:path/
 
-<<<<<<< HEAD
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -175,13 +174,8 @@ latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
-=======
 news_limit: 5
 blogs_limit: 5
-<<<<<<< HEAD
->>>>>>> add ODT blog
-=======
->>>>>>> de5d40914303696a20160914d5a7bf7be1162281
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
