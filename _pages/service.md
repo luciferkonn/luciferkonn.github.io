@@ -8,11 +8,13 @@ nav: true
 
 ## Review Service
 
-NeurIPS 2022, 2023, 2024
+### Conferences
 
-ICML 2022, 2023, 2024
+NeurIPS 2022, 2023, 2024 (Outstanding Reviewer)
 
-ICLR 2022, 2023
+ICML 2022, 2023, 2024, 2025
+
+ICLR 2022, 2023, 2024, 2025
 
 AISTATS 2023
 
@@ -25,3 +27,11 @@ INFOCOM 2021
 GLOBECOM 2022
 
 ICC 2022
+
+### Journals
+
+TMLR 2024
+
+### Workshops
+
+ICLR 2025 Workshop LLM Reason and Plan
