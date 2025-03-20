@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - luciferkonn
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - luciferkonn/DT_Mem
+  - convergence-ai/lm2
+  - convergence-ai/webgames
+  - convergence-ai/proxy-lite
