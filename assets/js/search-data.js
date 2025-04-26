@@ -109,7 +109,7 @@ ninja.data = [{
           section: "News",},{id: "news-happy-to-share-new-web-agent-benchmark-webgames-paper-blogpost-code",
           title: 'Happy to share new web agent benchmark: ~~WebGames~. Paper BlogPost Code',
           description: "",
-          section: "News",},{id: "news-thrilled-to-announce-our-paper-lm2-large-memory-models-for-long-context-reasoning-has-been-accepted-at-iclr-2-25-reasonings-and-planning-for-llms",
+          section: "News",},{id: "news-thrilled-to-announce-our-paper-lm2-large-memory-models-for-long-context-reasoning-has-been-accepted-at-iclr-2025-reasonings-and-planning-for-llms",
           title: 'Thrilled to announce our paper “LM2: Large Memory Models for Long Context Reasoning”...',
           description: "",
           section: "News",},{id: "projects-moc",
